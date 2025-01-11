@@ -1,7 +1,7 @@
 import Section from "./Section";
 import Heading from "./Heading";
 import { service1, service2, service3, check } from "../assets";
-import { MindSparkServices, MindSparkServicesIcons } from "../constants";
+import {brainwaveServices,brainwaveServicesIcons } from "../constants";
 import {
   PhotoChatMessage,
   Gradient,
@@ -38,7 +38,7 @@ const Services = () => {
                 MindSpark unlocks the potential of AI-powered applications
               </p>
               <ul className="body-2">
-                {MindSparkServices.map((item, index) => (
+                {brainwaveServices.map((item, index) => (
                   <li
                     key={index}
                     className="flex items-start py-4 border-t border-n-6"
@@ -85,7 +85,7 @@ const Services = () => {
                 </p>
 
                 <ul className="flex items-center justify-between">
-                  {MindSparkServicesIcons.map((item, index) => (
+                  {brainwaveServicesIcons.map((item, index) => (
                     <li
                       key={index}
                       className={`rounded-2xl flex items-center justify-center ${
